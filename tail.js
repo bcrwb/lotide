@@ -1,4 +1,6 @@
 const assertEqual = function(actual, expected) {
+    actual = actual.toString();
+    expected = expected.toString();
   actual === expected ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 
 };
@@ -15,6 +17,9 @@ const tail = function(array) {
   newArray.shift();
   return newArray;
 };
+
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result, ["Lighthouse", "Labs"]);
 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 console.log(tail(words)); // no need to capture the return value since we are not checking it
