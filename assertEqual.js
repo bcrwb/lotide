@@ -8,3 +8,4 @@ assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
 assertEqual("Hello", "Hello");
 assertEqual(4, 5);
+assertEqual('hi',"Hi");
