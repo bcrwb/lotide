@@ -8,7 +8,7 @@ const countLetters = function(string){
     for(let letter of string){
         if(letters[letter]){
         letters[letter] += 1
-        } else {
+        } else if(letter !== ' '){
             letters[letter] = 1
         }
     }
@@ -18,6 +18,7 @@ const countLetters = function(string){
 
 
 
-countLetters("hello")
-countLetters("lighthouse");
+countLetters("hello");
+countLetters("light house");
 countLetters('llllllllllll');
+
