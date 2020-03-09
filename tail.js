@@ -15,7 +15,7 @@
 // assertEqual('hi', "Hi");
 
 const tail = function(array) {
-  let newArray = array.slice();
+  let newArray = array.slice(1);
   newArray.shift();
   return newArray;
 };
