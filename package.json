@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@bcrwb/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide package for array functions including head,tail and middle",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/bcrwb/lotide.git"
   },
-  "author": "",
+  "author": {"name" : "Brent Carey"
+  , "email": "brentcarey1@outlook.com"},
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bcrwb/lotide/issues"

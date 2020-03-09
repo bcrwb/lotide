@@ -7,9 +7,10 @@ newArray=(array.join(','));
     return parseInt(item, 10);
 });
 }
-console.log(final)
+return final
 }
 
 
 
-flatten([1, 2, [3, 4], 5, [6]]) // => [1, 2, 3, 4, 5, 6]
+
+module.exports = flatten
